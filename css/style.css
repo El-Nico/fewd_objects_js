@@ -34,7 +34,7 @@ p + h2 {
 
 /* message under the logo */
 
-#message {
+.message {
   float: left;
   clear: left;
   background-color: #ffb87a;
@@ -45,20 +45,20 @@ p + h2 {
 
 /* black bar across the right hand side of the page */
 
-#info {
+.info {
   background-color: #1e1b1e;
   color: #fff;
   width: 200px;
   padding: 0 15px;
   text-align: center;
   min-height: 100%;
-  position: absolute;
-  top: 0;
-  right: 15%;}
+  position: relative;
+  float: left;
+  }
 
 /* details in the black bar */
 
-#hotelName {
+.hotelName {
   text-transform: uppercase;
   text-align: center; 
   font-size: 120%;
@@ -67,34 +67,34 @@ p + h2 {
   border-bottom: 1px solid #fff; 
   padding: 10px 0;}
 
-#hotel1 {
+.hotel1 {
   margin-top: 1em; 
   border-top: 1px solid #fff; 
   padding-top: 1em;} 
-#hotel2 {
+.hotel2 {
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
 
-#rooms {
+.rooms {
   font-size: 440%;
   color: #ffb87a;
   display: inline-block;
   margin: 0;}
 
-#roomRate{
+.roomRate{
   text-decoration: line-through;
   display: inline-block;
   float: left;
   padding-top: 10px;}
 
-#specialRate {  
+.specialRate {  
   font-size: 440%;
   color: #ffb87a;
   display: inline-block;
   padding: 10px 0 20px 0;
   margin: 0;}
 
-#offerEnds {
+.offerEnds {
   text-transform: uppercase;
   color: #ffb87a;
   font-size: 75%;}
@@ -112,16 +112,21 @@ p + h2 {
 
 /* footer */
 
-#footer {
+.footer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #adffda;}
 
-#footer p {
+.footer p {
   padding: 10px;
   margin: 0;}
 
 .data {
   padding: 10px;}
+
+#hotels {
+    display: inline-block;
+    f
+} 
